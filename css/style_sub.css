@@ -1401,10 +1401,15 @@ video {
 .magazine_wrap h1 {
     font-size: 50px;
     padding-bottom: 10px;
+    letter-spacing: -1.3px;
 }
 
 .magazine {
     width: 100%;
+}
+
+.magazine p {
+    line-height: 1.7em;
 }
 
 .magazine_banner {
@@ -1458,10 +1463,17 @@ video {
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 100px 100px;
+    padding: 50px 30px 50px 50px;
+    text-align: right;
     border-radius: 130px 0 0 130px;
     background-color: #685557;
     color: #fff;
+}
+
+.sub_banner_top p:nth-child(2) {
+    font-family: rixcutecat-pro, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
 }
 
 .subtitle_border {
@@ -1473,8 +1485,16 @@ video {
     border-left: 2px solid #685557;
 }
 
-.body_text p {
-    padding: 15px 0;
+.maintext {
+    font-size: 18px;
+    letter-spacing: -0.4px;
+}
+
+.rix {
+    font-family: rixcutecat-pro, sans-serif;
+    font-size: 25px;
+    color: #f79f8f;
+    padding: 20px 0;
 }
 
 .bottom_pic {
@@ -1513,6 +1533,10 @@ video {
 
     .magazine_banner span {
         font-size: 70px;
+    }
+
+    .maintext {
+        font-size: 15px;
     }
 }
 
@@ -1731,7 +1755,7 @@ p.itempage_link_btn {
 
 .popup {
     width: 95%;
-    max-width: 900px;
+    max-width: 800px;
     height: 70vh;
     margin: 100px auto;
     box-sizing: border-box;
